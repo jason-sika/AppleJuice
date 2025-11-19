@@ -61,3 +61,35 @@ align-items: bottom;
     border-radius: 20px !important;
     overflow: hidden;
 }
+
+
+.mediaitem-shelf-content{
+    background-color: rgba(0, 0, 0, 0.231) !important;
+    border-radius: 15px !important;
+    padding: 5px !important;
+    overflow: visible !important;
+}
+
+.top-songs{
+    overflow: visible !important;
+}
+
+.add-to-library-btn {
+    padding: 5px 15px 5px 10px;
+}
+
+.c-listitem-short {
+    grid-template-columns: 10px 40px 1fr 0px 40px;
+}
+
+.c-listitem-short:hover {
+    transform: scale(1.045);
+    transition: ease-out 0.4s all;
+    grid-template-columns: 10px 40px 1fr 40px 40px;
+    border-radius: 15px;
+    background-color: rgb(128, 68, 68) !important;
+}
+
+.c-listitem-short.content {
+    width: 70%;
+}
