@@ -1,6 +1,6 @@
-# 🎨 Cider Theme Template
+# 🍎 Apple Juice Theme
+hi, this is a wip
 
-This repository is a theme template for Cider
 
+<img width="3522" height="2160" alt="image" src="https://github.com/user-attachments/assets/2f44c5c3-eb6c-44e9-aeee-a385a25d6903" />
 
-![image](https://user-images.githubusercontent.com/49113086/153828900-3bbc2a41-349b-4bc9-bc61-813a4a0ee2f2.png)
