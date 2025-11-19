@@ -1,0 +1,63 @@
+/* sika's tweaks */
+.artist-page-content>div>div {
+padding: 20px;
+}
+
+.banner-container {
+border-radius: 20px;
+}
+
+.header-blur-mask {
+border-radius: 20px;
+}
+
+.name-area{
+align-items: bottom;
+}
+
+.name-area{
+    margin: 0px 0px 0px 5px;
+    align-items: center !important;
+}
+
+.ns-sidebar.ns-sidebar--left {
+    width: 90px;
+}
+
+.chrome-top {
+    box-shadow: none !important;
+    --bgColor: #ffffff00;
+}
+
+.q-toolbar.row{
+    height: 1px !important;
+    min-height: 1px !important;
+    align-items: flex-start !important;
+}
+
+.q-toolbar.row>button{
+    margin-top: 50px !important;
+}
+
+.chrome-top .center-search{
+    margin-top: 10px !important;
+    background-color: #21212145;
+    backdrop-filter: blur(10px);
+}
+
+.ns-qlayout[data-v-417ecd15]{
+    height: 100% !important;
+}
+
+.q-page{
+    margin-top: 15px !important;
+}
+
+.position-container{
+    padding: 20px !important;
+}
+
+.album-header{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
