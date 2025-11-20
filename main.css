@@ -1,4 +1,9 @@
 /* Apple Juice */
+
+.body{
+
+}
+
 .artist-page-content>div>div {
 padding: 20px;
 }
@@ -92,4 +97,66 @@ align-items: bottom;
 
 .c-listitem-short.content {
     width: 70%;
+}
+
+.lyric-glow-effect.lyric-line.active {
+    text-shadow: 0px 4px 20px #00000073;
+}
+
+.color-bloom {
+    height: 100% !important;
+    width: 100%;
+    filter: blur(128px);
+    z-index: -1;
+}
+
+.q-btn {
+    align-items: center;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500 !important;
+    padding: 5px 10px 5px 10px !important;
+    border-radius: 1000px !important;
+    gap: 10px;
+    border-width: 0px !important;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.q-btn:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 0.3s ease;
+    filter: brightness(0.9);
+}
+
+.q-btn:active{
+    cursor: pointer;
+    scale: 0.9;
+    transition: 0.1s ease-out;
+    filter: brightness(1.1);
+}
+
+select {
+    font-size: 14px;
+    font-weight: 500 !important;
+    padding: 5px 10px 5px 10px !important;
+    border-radius: 1000px !important;
+}
+
+.cider-dialog-window--generic {
+    background: #00000073 !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    padding: 20px !important;
+    backdrop-filter: blur(20px) !important;
+}
+
+.mediaitem-artwork-container.artworkContainer:hover {
+    transform: scale(1.05);
+    transition: ease-out 0.4s all;
+}
+
+.item-set, .q-card, .mediaitem-card, .artworkLockup {
+    overflow: visible !important;
 }
